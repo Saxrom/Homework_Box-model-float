@@ -1,0 +1,192 @@
+#Header{
+    overflow: auto;
+    padding: 20px 4rem;
+    position: fixed;
+    width: 100%;
+}
+
+#Header .left{
+    float: left;
+    width: 15%;
+}
+
+#Header .right{
+    float: right;
+    margin-top: 7px;
+}
+
+#Header .right a{
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+#Welcome{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13rem 0;
+}
+
+#Welcome h3{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+#Welcome h1{
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+#Welcome a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#Service{
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+
+.service-text, .portfolio-text, .team-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-all .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-all .box svg{
+    height: 6rem;
+    background-color: #ffc800;
+    color: #fff;
+    padding: 10px;
+}
+
+.service-all .box h3{
+    margin: 10px 0;
+}
+
+.service-all .box p{
+    color: #6c757d;
+}
+
+#Portfolio{
+    padding: 5rem 4rem;
+    overflow: auto;
+    background-color: #F8F9FA;
+}
+
+.portfolio-text h3{
+    font-size: 35px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.portfolio-text p{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 4rem ;
+    color: #6c757d 
+}
+
+.portfolio-all .box{
+    width: 30%;
+    float: left;
+    margin-right: 1px;
+    margin: 20px 15px;
+}
+
+.portfolio-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.portfolio-all .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+#Team{
+    padding: 96px 0;
+}
+
+.team-text h3{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.team-text p{
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 4rem ;
+    color: #6c757d 
+}
+
+
+.team-all .box{
+    width:calc(100%/3);
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team-all img{
+    width: 11rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.team-all .bottom {
+    text-align: center;
+    padding:  15px 0; 
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.team-all .bottom h5{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.team-all .bottom p{
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.team-footer{
+    text-align: center;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+#Logo{
+    background-color: #fff;
+    font-size: ;
+}
+
+#Logo .box{
+    width: 100;
+    float: left;
+    font-size: 16px;
+}
+
+#Logo .box svg{
+    height: 6rem;
+    width: 22%;
+}
